@@ -1,0 +1,681 @@
+body{
+    background-color: rgb(218, 237, 248);
+
+}
+
+/*img{
+    float: right;
+    margin-left: 20px;
+}*/
+
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #6e9aec, #73dbf0);
+    color: white;
+    padding: 20px;
+}
+
+header h1,
+header h3 {
+    margin: 8px;
+}
+
+
+/* Home Buttons */
+.home-buttons {
+    margin-top: 25px;
+}
+
+.home-buttons a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Common Button Style */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* Resume Button */
+.resume-btn {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+.resume-btn:hover {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(37,99,235,0.4);
+}
+
+/* Connect Button */
+.connect-btn {
+    background: linear-gradient(135deg, #10b981, #34d399);
+}
+
+.connect-btn:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(16,185,129,0.4);
+}
+.linkedin-btn {
+    background-color: #0077b5;
+}
+.linkedin-btn:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(16,185,129,0.4);
+}
+
+.leetcode-btn {
+    background-color: #f89f1b;
+}
+.leetcode-btn:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(16,185,129,0.4);
+}
+
+.gfg-btn {
+    background-color: #2f8d46;
+}
+.gfg-btn:hover {
+    background: linear-gradient(135deg, #059669, #10b981);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(16,185,129,0.4);
+}
+/* .btn:hover {
+    opacity: 0.8;
+} */
+
+
+/* Navigation */
+nav {
+    background-color: #222;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+/* Sections */
+section {
+    width: 85%;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+section h2 {
+    color: #090c11;
+    margin-bottom: 20px;
+}
+
+/* Home Image */
+#home img {
+    border-radius: 50%;
+    border: 1px solid #0e0f11;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+#home h2 {
+    color: #222;
+}
+
+#home h3 {
+    color: #555;
+}
+
+#home p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* About Table */
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #0f62fe;
+    color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+
+/* Attractive Tables */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Table Header */
+table th {
+    background: linear-gradient(135deg, #0f62fe, #00b4d8);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Table Cells */
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Rounded Corners */
+table th:first-child {
+    border-top-left-radius: 12px;
+}
+
+table th:last-child {
+    border-top-right-radius: 12px;
+}
+
+/* Alternate Rows */
+table tr:nth-child(even) {
+    background-color: #f4f9ff;
+}
+
+/* Hover Effect */
+/* table tr:hover {
+    background-color: #dff3ff;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/* Remove last row border */
+table tr:last-child td {
+    border-bottom: none;
+} */
+
+
+/* Skills */
+#skills ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+#skills li {
+    padding: 8px;
+    font-size: 18px;
+}
+
+/* Portfolio Project Image */
+/* #projects img{
+    border-radius:10px;
+    border:2px solid #ddd;
+    margin:15px 0;
+    transition:0.3s;
+    
+}*/
+#projects img { 
+    display: block;
+    margin: 20px auto;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#projects img:hover{
+    transform:scale(1.05);
+    box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Portfolio Button */
+.portfolio-btn{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    border:none;
+    
+    padding:12px 24px;
+    border-radius:30px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#projects a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.portfolio-btn:hover{
+    transform:translateY(-3px);
+    background:linear-gradient(135deg,#1d4ed8,#0891b2);
+    box-shadow:0 8px 18px rgba(37,99,235,0.35);
+}
+
+/* Project Check Button */
+.project-btn {
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(239,68,68,0.4);
+}
+
+/* Center Button */
+#projects a {
+    display: block;
+    text-align: center;
+}
+
+
+.certificate-slider {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: auto;
+  z-index: 1;
+}
+
+.certificate-slider input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 20%;
+  height: 350px;
+  object-fit: contain;
+  flex-shrink: 0;
+  z-index: 0;
+  border-radius: 10px;
+  background: white;
+}
+/* Slide movement */
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-20%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-40%);
+}
+
+#slide4:checked ~ .slides {
+  transform: translateX(-60%);
+}
+
+#slide5:checked ~ .slides {
+  transform: translateX(-80%);
+}
+
+
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5 {
+    display: none;
+}
+
+#slide1:checked ~ .arrows .arrow1 {
+    display: block;
+}
+
+#slide2:checked ~ .arrows .arrow2 {
+    display: block;
+}
+
+#slide3:checked ~ .arrows .arrow3 {
+    display: block;
+}
+
+#slide4:checked ~ .arrows .arrow4 {
+    display: block;
+}
+
+#slide5:checked ~ .arrows .arrow5 {
+    display: block;
+}
+
+
+
+/* Arrow buttons */
+/* Arrow buttons at middle left and middle right */
+.arrows label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+/* Contact Form */
+form {
+    width: 70%;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0f62fe;
+    outline: none;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    border: none;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #0f62fe;
+}
+
+input[type="submit"]:hover {
+    background-color: #0047b3;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    float: right;
+}
+
+input[type="reset"]:hover {
+    background-color: #a71d2a;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer h3 {
+    color: #00d4ff;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    section {
+        width: 95%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin-bottom: 10px;
+        float: none;
+    }
+
+    #home img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fix Sticky Navigation Overlap */
+nav {
+    background-color: #222;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Prevent section hiding behind sticky navbar */
+section {
+    scroll-margin-top: 80px;
+}
+
+
+/* Fix Project Images Overflow */
+#projects img {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+/* Fix Certificate Slider */
+.certificate-slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    margin: auto;
+    z-index: 1;
+}
+
+
+/* Certificate Images Responsive */
+/* .slides img {
+    width: 25%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 10px;
+} */
+
+
+/* Keep arrows inside slider */
+.arrows label {
+    z-index: 5;
+}
+
+
+/* Mobile Fix */
+@media(max-width:768px){
+
+    #projects img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .certificate-slider {
+        width: 95%;
+    }
+
+
+    nav {
+        position: sticky;
+        top:0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .slides img {
+        height: 250px;
+    }
+}
+
+.slides img {
+    width: 20%;
+    height: 350px;
+    max-height: 350px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: white;
+}
